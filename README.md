@@ -1,46 +1,52 @@
-autoDig v0.5 3/0/2014
-Author: JimmySticks2001
+autoDig v0.5
+============
+This content is released under the [MIT License](http://opensource.org/licenses/MIT) and 
+contains content created by [Ramunas Geciauskas](http://keyboardmousehooks.codeplex.com/).
 
 
-==========Version history=======
-v0.5 3/6/2014
-Redoing the program to use MVC architecture.
-Added a repository on GitHub: github.com/JimmySticks2001/autoDig
-Added MIT license.
+Version history
+---------------
 
-v0.4 1/20/2014
-Added a button to clear the log.
-Added a version checker in the menu.
-Added a field where user can change the name of the starting batch file.
-Added a menu option to set the defaults for the program. 
-Added tooltips on user changable fields.
+#####v0.5 3/6/2014
+* Redoing the program to use MVC architecture.
+* Added a repository on GitHub: github.com/JimmySticks2001/autoDig
+* Added MIT license.
 
-v0.3 1/15/2014
-Added mouse tracking.
-Added GUI:
+#####v0.4 1/20/2014
+* Added a button to clear the log.
+* Added a version checker in the menu.
+* Added a field where user can change the name of the starting batch file.
+* Added a menu option to set the defaults for the program. 
+* Added tooltips on user changable fields.
+
+#####v0.3 1/15/2014
+* Added mouse tracking.
+* Added GUI:
 	CPU threshold Inactive time, and Active time can be changed on the fly.
 	Mouse tracking and auto start/stop can be toggled.
 	A status window logs the current state of the program.
-Added ability to stop and start miners manually.
-Added config file. (see comments below)
-Removed command line arguments.
+* Added ability to stop and start miners manually.
+* Added config file. (see comments below)
+* Removed command line arguments.
 
-v0.2 1/13/2014
-Fixed a memory leak.
-Fixed multiple instances of miners being run.
-Fixed miner startup causing CPU% threshold to be crossed.
-Added command line arguments.
-Added display of command line settings. 
+#####v0.2 1/13/2014
+* Fixed a memory leak.
+* Fixed multiple instances of miners being run.
+* Fixed miner startup causing CPU% threshold to be crossed.
+* Added command line arguments.
+* Added display of command line settings. 
 
-v0.1 1/12/2014
+#####v0.1 1/12/2014
 original
 
 
-==========Requirements==========
+Requirements
+------------
 .NET Framework 4.0
 
 
-==========What is it?==========
+What is it?
+-----------
 This program will actively monitor the CPU usage of a computer. When the CPU 
 has minimal activity for a set number of minutes (inactiveWaitMinutes) the 
 program will run a batch file. This should be the batch file you use to start 
@@ -56,14 +62,15 @@ moved, this will also reset the inactivity timer.
 
 CPU monitoring is used as an indication that the computer is doing something 
 important and should not have a miner running. Mouse monitoring is used as an
- indication that a user is currently using the computer and shouldn't have 
- the miner using up all of the GPU.
+indication that a user is currently using the computer and shouldn't have 
+the miner using up all of the GPU.
 
 This will work with cudaminer and cgminer as of now. Other miners can be added
 if need be.
 
 
-==========How do I use it?==========
+How do I use it?
+----------------
 To "install" autoDig just place it, its config file, and kill.bat into your 
 miners folder. It will need to be in the same folder as your miners start-up 
 batch file. 
@@ -119,7 +126,3 @@ If you have adjusted the fields to your liking while the program is running,
 go to the menu under Utilitied and select "Set defaults". This will write all 
 of the fields to the config file and your program will start up with these 
 settings.
-
-
-Address any questions, comments, or requests to my site in the "Comments" 
-section: http://www.timlightfoot.net/comments
