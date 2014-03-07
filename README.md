@@ -42,7 +42,7 @@ original
 
 Requirements
 ------------
-.NET Framework 4.0
+.NET Framework 4.0 or above.
 
 
 What is it?
