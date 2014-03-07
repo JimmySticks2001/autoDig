@@ -17,7 +17,7 @@ Version history
 * Added a version checker in the menu.
 * Added a field where user can change the name of the starting batch file.
 * Added a menu option to set the defaults for the program. 
-* Added tooltips on user changable fields.
+* Added tooltips on user changeable fields.
 
 #####v0.3 1/15/2014
 * Added mouse tracking.
@@ -123,6 +123,6 @@ activeWaitSeconds:(1-30) - Sets the time the program will wait until stopping
 the miner. 
 
 If you have adjusted the fields to your liking while the program is running, 
-go to the menu under Utilitied and select "Set defaults". This will write all 
+go to the menu under Utilities and select "Set defaults". This will write all 
 of the fields to the config file and your program will start up with these 
 settings.
