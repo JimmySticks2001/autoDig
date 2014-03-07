@@ -1,6 +1,6 @@
 autoDig v0.5
 ============
-This content is released under the [MIT License](http://opensource.org/licenses/MIT) and 
+This program is released under the [MIT License](http://opensource.org/licenses/MIT) and 
 contains content created by [Ramunas Geciauskas](http://keyboardmousehooks.codeplex.com/).
 
 
