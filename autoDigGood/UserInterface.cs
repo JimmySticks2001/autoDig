@@ -18,7 +18,7 @@ namespace autoDigGood
         public UserInterface()
         {
             InitializeComponent();
-        }
+        }//end UserInterface
 
         private void uxCPUnumber_ValueChanged(object sender, EventArgs e)
         {
@@ -68,7 +68,7 @@ namespace autoDigGood
         private void setDefaultsToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-        }//end UserInterface
+        }
 
 
 

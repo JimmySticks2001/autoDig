@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CpuTimer.cs" />
     <Compile Include="DigController.cs" />
     <Compile Include="MouseHook.cs" />
     <Compile Include="UserInterface.cs">
